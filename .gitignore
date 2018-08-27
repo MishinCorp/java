@@ -25,6 +25,5 @@ hs_err_pid*
 .idea
 checkstyle.xml
 *.iml
-pom.xml
 target
 
