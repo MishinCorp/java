@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/MishinCorp/java.svg?branch=master)](https://travis-ci.org/MishinCorp/java)
 # Java. From scratch =)
 
 Welcome to Yura Mishin's Java repository.
