@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/MishinCorp/java.svg?branch=master)](https://travis-ci.com/MishinCorp/java)
-[![codecov](https://codecov.io/gh/MishinCorp/java/branch/master/graph/badge.svg)](https://codecov.io/gh/MishinCorp/java)
 # Java. From scratch =)
 
 Welcome to Yura Mishin's Java repository.
