@@ -13,7 +13,7 @@ public final class Main {
     /**
      * Constructor.
      */
-    private Main() {
+    protected Main() {
     }
 
     /**
@@ -21,7 +21,7 @@ public final class Main {
      *
      * @param args Args.
      */
-    public static void main(final String[] args) {
-        System.out.println(new HelloUser().getGreeting("Yura"));
+    public static void main(final String... args) {
+        System.out.println(new HelloUser().getGreeting(args[0]));
     }
 }
