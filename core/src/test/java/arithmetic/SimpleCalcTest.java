@@ -15,7 +15,7 @@ public class SimpleCalcTest {
     /**
      * Method uses Assert.assertEquals,  Assert.assertTrue.
      *
-     * @throws Exception
+     * @throws Exception Exception
      */
     @Test
     public void testEquals() throws Exception {
@@ -30,7 +30,7 @@ public class SimpleCalcTest {
     /**
      * Method uses Assert.assertFalse.
      *
-     * @throws Exception
+     * @throws Exception Exception
      */
     @Test
     public void testNotEquals() throws Exception {
@@ -47,6 +47,8 @@ public class SimpleCalcTest {
     @Test(expected = RuntimeException.class)
     public void whenRunThenThrowException() {
         SimpleCalc calc = new SimpleCalc();
+        int expected = 0;
         int result = calc.sum(0, 0);
+        assertEquals(0, 0);
     }
 }

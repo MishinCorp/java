@@ -16,7 +16,7 @@ public final class SimpleCalc {
      * @return Result.
      */
     public int sum(final int aNumA, final int aNumB) {
-        if (aNumA == 0 && aNumB == 0) {
+        if ((aNumA == 0) && (aNumB == 0)) {
             throw new RuntimeException("Your args are zeros.");
         }
 
