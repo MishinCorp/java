@@ -20,8 +20,8 @@ public class SimpleCalcTest {
     @Test
     public void testEquals() throws Exception {
         SimpleCalc calc = new SimpleCalc();
-        int result = calc.sum(1, 1);
-        int expected = 2;
+        int result = calc.sum(1, 0);
+        int expected = 1;
 
         assertEquals(expected, result);
         assertTrue(expected == result);

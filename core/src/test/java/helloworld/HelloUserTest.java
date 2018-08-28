@@ -98,4 +98,22 @@ public class HelloUserTest {
 
 //        verify(helloUserSpy).getGreeting(name);
     }
+    /**
+     * Method tests ordinary invoke.
+     */
+    @Test
+    public void whenInvokeThenGetAnswer() {
+//        HelloUser helloUserSpy = spy(new HelloUser());
+        HelloUser helloUserSpy = new HelloUser();
+
+        String name = "Alex";
+        String expected = String.format("Hello, %s!", name);
+
+//        when(helloUserSpy.getGreeting(name)).thenReturn(expected);
+        String result = helloUserSpy.getGreeting(name);
+
+        assertEquals(expected, result);
+
+//        verify(helloUserSpy).getGreeting(name);
+    }
 }
