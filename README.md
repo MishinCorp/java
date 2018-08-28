@@ -8,8 +8,9 @@ Welcome to Yura Mishin's Java repository.
 
 [Chapter 1. Java SE](https://github.com/MishinCorp/java/tree/master/core)
 
-##### Resources
+##### Useful resources:
 + [Oracle Help Center](https://docs.oracle.com/)
++ [Java-online.ru](http://java-online.ru/)
 + [Head First Java](https://www.oreilly.com/library/view/head-first-java/0596009208/)
 + [Thinking in Java (En)](https://en.wikipedia.org/wiki/Thinking_in_Java/) // [(Ru)](http://wikijava.it-cache.net/index.php)
 + [Core Java. Volume I, II](https://www.horstmann.com/corejava.html)

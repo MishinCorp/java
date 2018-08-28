@@ -14,7 +14,24 @@ public class HelloUser {
      * @param aName User name.
      * @return Greeting.
      */
-    public final String getGreeting(final String aName) {
-        return String.format("Hello, %s!", aName);
+    public String getGreeting(final String aName) {
+        String result;
+
+        switch (aName) {
+            case "":
+                throw new RuntimeException();
+            case "Mishin":
+                result = String.format("Hello, Yura %s!", aName);
+                break;
+            case "User":
+                result = String.format("Hello, my %s!", aName);
+                break;
+
+            default:
+                result = String.format("Hello, %s!", aName);
+                break;
+        }
+
+        return result;
     }
 }
