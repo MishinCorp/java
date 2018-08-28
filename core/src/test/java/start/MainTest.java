@@ -7,6 +7,7 @@ import java.io.PrintStream;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertNotNull;
 
 /**
  * Class MainTest.
@@ -20,11 +21,8 @@ public class MainTest {
      * Method tests new object creation.
      */
     @Test
-    public void whenNewObjThenReturnName() throws Exception {
-        String expected = "Main";
-        String result = new Main().getClass().getSimpleName();
-
-        assertThat(result, is(expected));
+    public void whenMainThenReturnTrue() throws Exception {
+        assertNotNull(new Main());
     }
 
     /**
