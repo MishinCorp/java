@@ -14,7 +14,7 @@ public class HelloUser {
      * @param aName User name.
      * @return Greeting.
      */
-    public String getGreeting(final String aName) {
+    public final String getGreeting(final String aName) {
         String result;
 
         switch (aName) {
