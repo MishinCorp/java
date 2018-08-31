@@ -2,7 +2,7 @@ package lambdaexamples;
 
 /**
  * Interface ISortArray.
- * Declares methods for sort exmaple class.
+ * Declares methods for sort example class.
  *
  * @author Mishin Yura (mishin.inbox@gmail.com)
  * @since 31.08.2018

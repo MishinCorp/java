@@ -5,6 +5,7 @@ import java.util.Comparator;
 
 /**
  * Class SortArray.
+ * Implements ISortArray.
  *
  * @author Mishin Yura (mishin.inbox@gmail.com)
  * @since 31.08.2018
