@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
  * @since 27.08.2018
  */
 public class HelloUserTest {
-    //    HelloUser helloUser = mock(HelloUser.class);
+//        HelloUser helloUser = mock(HelloUser.class);
     HelloUser helloUser = new HelloUser();
 
     /**
