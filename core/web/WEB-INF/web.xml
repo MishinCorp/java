@@ -12,6 +12,10 @@
         <servlet-name>Current Month</servlet-name>
         <servlet-class>date.Servlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Simple form process</servlet-name>
+        <servlet-class>simpleformprocess.BeerSelect</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>Hello World Servlet</servlet-name>
@@ -20,5 +24,9 @@
     <servlet-mapping>
         <servlet-name>Current Month</servlet-name>
         <url-pattern>/currrentmonth.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Simple form process</servlet-name>
+        <url-pattern>/simpleformprocess/SelectBeer.do</url-pattern>
     </servlet-mapping>
 </web-app>

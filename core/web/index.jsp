@@ -12,5 +12,6 @@
 <h1>Main</h1>
 <p><a href="/helloworld.do">Hello, World! Привет, Мир!</a></p>
 <p><a href="/currrentmonth.do">Вывод названия текущего месяца.</a></p>
+<p><a href="/simpleformprocess/index.html">Обработка простой формы.</a></p>
 </body>
 </html>
