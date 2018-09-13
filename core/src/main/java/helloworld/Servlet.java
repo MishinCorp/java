@@ -39,7 +39,7 @@ public class Servlet extends HttpServlet {
                 .append("</body>")
                 .append("</html>");
 
-        out.println(html.toString());
+        out.print(html.toString());
 
         out.close();
     }
