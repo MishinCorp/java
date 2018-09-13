@@ -8,9 +8,17 @@
         <servlet-name>Hello World Servlet</servlet-name>
         <servlet-class>helloworld.Servlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Current Month</servlet-name>
+        <servlet-class>date.Servlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>Hello World Servlet</servlet-name>
         <url-pattern>/helloworld.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Current Month</servlet-name>
+        <url-pattern>/currrentmonth.do</url-pattern>
     </servlet-mapping>
 </web-app>

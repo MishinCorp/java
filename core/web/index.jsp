@@ -11,5 +11,6 @@
 <body>
 <h1>Main</h1>
 <p><a href="/helloworld.do">Hello, World! Привет, Мир!</a></p>
+<p><a href="/currrentmonth.do">Вывод названия текущего месяца.</a></p>
 </body>
 </html>

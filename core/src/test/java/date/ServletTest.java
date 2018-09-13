@@ -1,4 +1,4 @@
-package helloworld;
+package date;
 
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -25,7 +28,7 @@ public class ServletTest extends Mockito {
      * Method tests obtaining html.
      *
      * @throws ServletException ServletException.
-     * @throws IOException IOException.
+     * @throws IOException      IOException.
      */
     @Test
     public void whenServletThenGetHtml() throws ServletException, IOException {
@@ -39,6 +42,13 @@ public class ServletTest extends Mockito {
         when(response.getWriter()).thenReturn(writer);
 
         servlet.doGet(request, response);
+
+        String format = "MMMM";
+        SimpleDateFormat dateFormat = new SimpleDateFormat(
+                format,
+                Locale.ENGLISH);
+
+        String month = dateFormat.format(new Date());
 
         StringBuilder expected = new StringBuilder();
         expected.append("<!doctype html>")
@@ -57,7 +67,7 @@ public class ServletTest extends Mockito {
                 .append(System.lineSeparator())
                 .append("<p><a href=\"..\\index.jsp\">Главная</a></p>")
                 .append(System.lineSeparator())
-                .append("Hello, Yura!")
+                .append(month)
                 .append(System.lineSeparator())
                 .append("</body>")
                 .append(System.lineSeparator())

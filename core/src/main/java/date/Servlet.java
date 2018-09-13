@@ -1,4 +1,4 @@
-package helloworld;
+package date;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -12,7 +12,7 @@ import java.io.PrintWriter;
  * Implements simple html-page.
  *
  * @author Mishin Yura (mishin.inbox@gmail.com)
- * @since 12.09.2018
+ * @since 13.09.2018
  */
 public class Servlet extends HttpServlet {
     @Override
@@ -23,8 +23,8 @@ public class Servlet extends HttpServlet {
         resp.setContentType("text/html;charset=UTF-8");
         PrintWriter out = resp.getWriter();
 
-        HelloUser helloUser = new HelloUser();
-        String result = helloUser.getGreeting("Yura");
+        SimpleDate simpleDate = new SimpleDate();
+        String result = simpleDate.getMonth();
 
         StringBuilder html = new StringBuilder();
         html.append("<!doctype html>")
