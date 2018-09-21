@@ -27,7 +27,7 @@ Welcome to Yura Mishin's Java repository.
 + [uml-diagrams.org](https://www.uml-diagrams.org/)
 ##### Data Structures and Algorithms
 + [Robert Lafore. Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539)
-+ [My examples](https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539)
++ [My examples](https://github.com/MishinCorp/java/tree/master/dsalgorithms)
 ##### Web
 + [Head First Servlets and JSP](http://shop.oreilly.com/product/9780596516680.do)
 + [w3schools.com](https://www.w3schools.com/)
