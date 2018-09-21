@@ -22,6 +22,7 @@ Welcome to Yura Mishin's Java repository.
 + [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
 + [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor)
 + [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
++ [Test-driven development / TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 + [Design Patterns](https://sourcemaking.com/design_patterns)
 + [UML](https://sourcemaking.com/uml)
 + [uml-diagrams.org](https://www.uml-diagrams.org/)
