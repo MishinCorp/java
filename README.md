@@ -24,12 +24,17 @@ Welcome to Yura Mishin's Java repository.
 + [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor)
 + [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 + [Test-driven development / TDD](https://en.wikipedia.org/wiki/Test-driven_development)
-+ [Design Patterns](https://sourcemaking.com/design_patterns)
 + [UML](https://sourcemaking.com/uml)
 + [uml-diagrams.org](https://www.uml-diagrams.org/)
 ##### Data Structures and Algorithms
 + [Robert Lafore. Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539)
 + [My examples](https://github.com/MishinCorp/java/tree/master/dsalgorithms)
+##### Patterns
++ [sourcemaking.com](https://sourcemaking.com/design_patterns)
++ [tutorialspoint.com](https://www.tutorialspoint.com/design_pattern/index.htm)
++ [Шпаргалка по шаблонам проектирования](https://habr.com/post/210288/)
++ [refactoring.guru](https://refactoring.guru/ru/design-patterns)
++ [My examples](https://github.com/MishinCorp/java/tree/master/patterns)
 ##### Collections
 + [My examples](https://github.com/MishinCorp/java/tree/master/collections)
 ##### Web
