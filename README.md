@@ -7,6 +7,9 @@ Welcome to Yura Mishin's Java repository.
 ![Photo](https://github.com/MishinCorp/java/blob/master/img/avatar.jpg)![Photo](https://github.com/MishinCorp/java/blob/master/img/java_logo.jpg)
 
 #### Useful resources:
+##### Common
++ [Google](https://www.google.com/)
++ [Stackoverflow](https://stackoverflow.com/)
 ##### Java
 + [Oracle Help Center](https://docs.oracle.com/)
 + [Java-online.ru](http://java-online.ru/)
@@ -18,6 +21,8 @@ Welcome to Yura Mishin's Java repository.
 + [Apache Maven](https://maven.apache.org/)
 + [Maven Repository: Top Projects at Maven Repository](https://mvnrepository.com/popular)
 ##### Computers and Technology
++ [Harvard CS50 in Russian](https://habr.com/company/vertdider/blog/403823/)
++ [Coursera](https://www.coursera.org/browse/computer-science)
 + [SOLID](https://en.wikipedia.org/wiki/SOLID)
 + [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 + [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
@@ -37,6 +42,8 @@ Welcome to Yura Mishin's Java repository.
 + [My examples](https://github.com/MishinCorp/java/tree/master/patterns)
 ##### Collections
 + [My examples](https://github.com/MishinCorp/java/tree/master/collections)
+##### Lambda. Functional interfaces
++ [My examples](https://github.com/MishinCorp/java/tree/master/lambda)
 ##### Web
 + [Head First Servlets and JSP](http://shop.oreilly.com/product/9780596516680.do)
 + [w3schools.com](https://www.w3schools.com/)
