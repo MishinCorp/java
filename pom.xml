@@ -24,6 +24,7 @@
         <module>tictactoe</module>
         <module>collections</module>
         <module>patterns</module>
+        <module>lambda</module>
     </modules>
 
     <properties>
