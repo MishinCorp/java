@@ -33,4 +33,21 @@ public class CalculatorTest {
 
         assertThat(buffer, is(Arrays.asList(1D, 2D, 3D)));
     }
+
+    /**
+     * Tests method multiple with method reference.
+     */
+    @Test
+    public void whenAdd1Until3MRef() {
+        Calculator calc = new Calculator();
+        List<Double> buffer = new ArrayList<>();
+
+        calc.multiple(
+                0, 3, 1,
+                MathUtil::add,
+                buffer::add
+        );
+
+        assertThat(buffer, is(Arrays.asList(1D, 2D, 3D)));
+    }
 }
