@@ -18,6 +18,23 @@ import static org.junit.Assert.assertThat;
  */
 public class CalculatorTest {
     /**
+     * Tests method div with method reference.
+     */
+    @Test
+    public void whenDiv1Until3MRef() {
+        Calculator calc = new Calculator();
+        List<Double> buffer = new ArrayList<>();
+
+        calc.multiple(
+                1, 3, 2,
+                MathUtil::div,
+                buffer::add
+        );
+
+        assertThat(buffer, is(Arrays.asList(2D, 1D)));
+    }
+
+    /**
      * Tests method multiple.
      */
     @Test
