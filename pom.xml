@@ -25,6 +25,7 @@
         <module>collections</module>
         <module>patterns</module>
         <module>lambda</module>
+        <module>stream</module>
     </modules>
 
     <properties>
