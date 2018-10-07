@@ -43,9 +43,8 @@ public class PhoneDictionaryTest {
     @Test
     public void whenSearchByNameThenGetEntry() throws Exception {
         String expected = "Yura";
-        List<Person> result = DICTIONARY.find("Yu");
-
-        assertThat(result.iterator().next().getName(), is(expected));
+        String result = DICTIONARY.find("Yu").stream().map(Person::getName).findFirst().get();
+        assertThat(result, is(expected));
     }
 
     /**
@@ -69,9 +68,8 @@ public class PhoneDictionaryTest {
     @Test
     public void whenSearchBySurnameThenGetEntry() throws Exception {
         String expected = "Mishin";
-        List<Person> result = DICTIONARY.find("sh");
-
-        assertThat(result.iterator().next().getSurname(), is(expected));
+        String result = DICTIONARY.find("sh").stream().map(Person::getSurname).findFirst().get();
+        assertThat(result, is(expected));
     }
 
     /**
@@ -82,9 +80,8 @@ public class PhoneDictionaryTest {
     @Test
     public void whenSearchByPhoneThenGetEntry() throws Exception {
         String expected = "555";
-        List<Person> result = DICTIONARY.find("5");
-
-        assertThat(result.iterator().next().getPhone(), is(expected));
+        String result = DICTIONARY.find("55").stream().map(Person::getPhone).findFirst().get();
+        assertThat(result, is(expected));
     }
 
     /**
@@ -95,8 +92,7 @@ public class PhoneDictionaryTest {
     @Test
     public void whenSearchByAddressThenGetEntry() throws Exception {
         String expected = "Russia";
-        List<Person> result = DICTIONARY.find("ss");
-
-        assertThat(result.iterator().next().getAddress(), is(expected));
+        String result = DICTIONARY.find("ss").stream().map(Person::getAddress).findFirst().get();
+        assertThat(result, is(expected));
     }
 }

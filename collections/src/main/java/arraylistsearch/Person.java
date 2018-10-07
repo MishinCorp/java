@@ -28,21 +28,21 @@ public class Person {
     /**
      * Constructor.
      *
-     * @param aName     Name.
-     * @param aSurname  Surname.
-     * @param aPhone    Phone.
-     * @param anAddress Аddress.
+     * @param pName     Name.
+     * @param pSurname  Surname.
+     * @param pPhone    Phone.
+     * @param pAddress Аddress.
      */
     public Person(
-            final String aName,
-            final String aSurname,
-            final String aPhone,
-            final String anAddress) {
+            final String pName,
+            final String pSurname,
+            final String pPhone,
+            final String pAddress) {
 
-        this.name = aName;
-        this.surname = aSurname;
-        this.phone = aPhone;
-        this.address = anAddress;
+        this.name = pName;
+        this.surname = pSurname;
+        this.phone = pPhone;
+        this.address = pAddress;
     }
 
     /**
