@@ -45,6 +45,7 @@ Welcome to Yura Mishin's Java repository.
 ##### Collections
 + [My examples](https://github.com/MishinCorp/java/tree/master/collections)
 ##### Lambda. Functional interfaces
++ [Richard Warburton. Java 8 Lambdas](https://www.oreilly.com/library/view/java-8-lambdas/9781449370831/)
 + [My examples](https://github.com/MishinCorp/java/tree/master/lambda)
 ##### Stream API
 + [My examples](https://github.com/MishinCorp/java/tree/master/stream)

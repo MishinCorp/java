@@ -2,6 +2,7 @@ package arraylistsearch;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Class PhoneDictionary.
@@ -19,39 +20,25 @@ public class PhoneDictionary {
     /**
      * Method adds a person.
      *
-     * @param aPerson Person.
+     * @param pPerson Person.
      */
-    public final void add(final Person aPerson) {
-        this.persons.add(aPerson);
+    public final void add(final Person pPerson) {
+        this.persons.add(pPerson);
     }
 
     /**
      * Method searches persons by keyword.
      *
-     * @param aKey Keyword.
+     * @param pKey Keyword.
      * @return List.
      */
-    public final List<Person> find(final String aKey) {
-        List<Person> result = new ArrayList<>();
+    public final List<Person> find(final String pKey) {
+        return this.persons.stream().filter(
+                person -> person.getName().contains(pKey)
+                        || person.getSurname().contains(pKey)
+                        || person.getPhone().contains(pKey)
+                        || person.getAddress().contains(pKey)).collect(Collectors.toList());
 
-//        for (Person person : persons) {
-//            if (person.getName().contains(aKey)
-//                    || person.getSurname().contains(aKey)
-//                    || person.getPhone().contains(aKey)
-//                    || person.getAddress().contains(aKey)) {
-//
-//                result.add(person);
-//            }
-//        }
-        persons.iterator().forEachRemaining(person -> {
-            if (person.getName().contains(aKey)
-                    || person.getSurname().contains(aKey)
-                    || person.getPhone().contains(aKey)
-                    || person.getAddress().contains(aKey)) {
-                result.add(person);
-            }
-        });
 
-        return result;
     }
 }
