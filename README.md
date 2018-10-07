@@ -46,6 +46,8 @@ Welcome to Yura Mishin's Java repository.
 + [My examples](https://github.com/MishinCorp/java/tree/master/collections)
 ##### Lambda. Functional interfaces
 + [My examples](https://github.com/MishinCorp/java/tree/master/lambda)
+##### Stream API
++ [My examples](https://github.com/MishinCorp/java/tree/master/stream)
 ##### Web
 + [Head First Servlets and JSP](http://shop.oreilly.com/product/9780596516680.do)
 + [w3schools.com](https://www.w3schools.com/)
