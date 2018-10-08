@@ -37,8 +37,7 @@ public class PhoneDictionary {
                 person -> person.getName().contains(pKey)
                         || person.getSurname().contains(pKey)
                         || person.getPhone().contains(pKey)
-                        || person.getAddress().contains(pKey)).collect(Collectors.toList());
-
-
+                        || person.getAddress().contains(pKey))
+                .collect(Collectors.toList());
     }
 }
