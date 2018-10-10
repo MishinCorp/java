@@ -49,7 +49,7 @@ public class UserConvertTest {
         Map<Integer, User> map = userConvert.process(list);
 
         map.forEach(
-                (k, v) -> System.out.println(String.format("%d %s %s", k, v.getName(), v.getCity()))
+                (k, v) -> System.out.println(String.format("%d %s %s", v.getId(), v.getName(), v.getCity()))
         );
 
         assertThat(
