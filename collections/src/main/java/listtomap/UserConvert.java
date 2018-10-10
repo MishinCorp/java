@@ -2,6 +2,7 @@ package listtomap;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Class UserConvert.
@@ -14,14 +15,14 @@ public class UserConvert {
     /**
      * Method converts List to Map.
      *
-     * @param aList List of User.
+     * @param pList List of User.
      * @return Map.
      */
-    public final HashMap<Integer, User> process(final List<User> aList) {
-        HashMap<Integer, User> result = new HashMap<>();
-        aList.forEach(
-                n -> result.put(n.getId(), n)
+    public final Map<Integer, User> process(final List<User> pList) {
+        return pList.stream().collect(HashMap<Integer, User>::new,
+                (k, v) -> k.put(v.getId(), v),
+                (k, v) -> {
+                }
         );
-        return result;
     }
 }

@@ -16,6 +16,7 @@ Welcome to Yura Mishin's Java repository.
 + [Metanit.com](https://metanit.com/java/)
 + [Mkyong.com](https://www.mkyong.com/tutorials/java-8-tutorials/)
 + [Baeldung.com](https://www.baeldung.com/)
++ [Vertex-academy.com](https://vertex-academy.com/tutorials/ru/)
 + [Head First Java](https://www.oreilly.com/library/view/head-first-java/0596009208/)
 + [Thinking in Java (En)](https://en.wikipedia.org/wiki/Thinking_in_Java/) // [(Ru)](http://wikijava.it-cache.net/index.php)
 + [Core Java. Volume I, II](https://www.horstmann.com/corejava.html)

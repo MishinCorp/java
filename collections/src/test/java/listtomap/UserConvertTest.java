@@ -46,10 +46,10 @@ public class UserConvertTest {
         Collections.addAll(list, user0, user1, user2);
 
         UserConvert userConvert = new UserConvert();
-        HashMap<Integer, User> map = userConvert.process(list);
+        Map<Integer, User> map = userConvert.process(list);
 
         map.forEach(
-                (k, v) -> System.out.println(String.format("%d %s %s", k, v.getName(), v.getCity()))
+                (k, v) -> System.out.println(String.format("%d %s %s", v.getId(), v.getName(), v.getCity()))
         );
 
         assertThat(

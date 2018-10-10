@@ -1,6 +1,7 @@
 package linkedlistqueue;
 
 import java.util.LinkedList;
+import java.util.Optional;
 
 /**
  * Class PriorityQueue.
@@ -18,29 +19,21 @@ public class PriorityQueue {
     /**
      * Method adds an entry in a specific position.
      *
-     * @param aTask Task.
+     * @param pTask Task.
      */
-    public final void put(final Task aTask) {
-        boolean flag = true;
-
+    public final void put(final Task pTask) {
         if (this.tasks.isEmpty()) {
-            this.tasks.add(aTask);
-            flag = false;
-
+            this.tasks.add(pTask);
         } else {
-            for (int i = 0; i < this.tasks.size(); i++) {
-                Task currentItem = this.tasks.get(i);
-                if (aTask.getPriority() < currentItem.getPriority()) {
-                    this.tasks.add(i, aTask);
-                    flag = false;
-                    break;
-                }
+            Optional<Task> targetTask = this.tasks.stream()
+                    .filter(task -> pTask.getPriority() < task.getPriority())
+                    .findFirst();
+            if (targetTask.isPresent()) {
+                this.tasks.add(this.tasks.indexOf(targetTask.get()), pTask);
+            } else {
+                this.tasks.add(pTask);
             }
         }
-        if (flag) {
-            this.tasks.add(aTask);
-        }
-
     }
 
     /**
