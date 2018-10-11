@@ -17,6 +17,8 @@ Welcome to Yura Mishin's Java repository.
 + [Mkyong.com](https://www.mkyong.com/tutorials/java-8-tutorials/)
 + [Baeldung.com](https://www.baeldung.com/)
 + [Vertex-academy.com](https://vertex-academy.com/tutorials/ru/)
++ [Шпаргалка Java программиста](https://habr.com/post/265061/)
++ [Список полезных ссылок для Java программиста](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)
 + [Head First Java](https://www.oreilly.com/library/view/head-first-java/0596009208/)
 + [Thinking in Java (En)](https://en.wikipedia.org/wiki/Thinking_in_Java/) // [(Ru)](http://wikijava.it-cache.net/index.php)
 + [Core Java. Volume I, II](https://www.horstmann.com/corejava.html)
@@ -26,11 +28,13 @@ Welcome to Yura Mishin's Java repository.
 ##### Computers and Technology
 + [Harvard CS50 in Russian](https://habr.com/company/vertdider/blog/403823/)
 + [Coursera](https://www.coursera.org/browse/computer-science)
++ [Hackr.io](https://hackr.io/)
 + [SOLID](https://en.wikipedia.org/wiki/SOLID)
 + [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 + [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
 + [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor)
 + [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
++ [Web developer roadmap - 2018](https://github.com/kamranahmedse/developer-roadmap)
 + [Test-driven development / TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 + [UML](https://sourcemaking.com/uml)
 + [uml-diagrams.org](https://www.uml-diagrams.org/)
@@ -58,6 +62,8 @@ Welcome to Yura Mishin's Java repository.
 + [Head First SQL](http://shop.oreilly.com/product/9780596526849.do)
 + [SQL in a Nutshell](http://shop.oreilly.com/product/9780596518851.do)
 + [Практическое владение языком SQL](http://www.sql-ex.ru/)
+##### GIT
++ [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)
 ##### My pet projects
 + [Tracker](https://github.com/MishinCorp/java/tree/master/tracker)
 
