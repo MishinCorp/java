@@ -19,8 +19,6 @@ public class Factorial {
             return 1;
         } else if (aNumber == 1) {
             return 1;
-        } else if (aNumber == 2) {
-            return 2;
         } else {
             return get(aNumber - 1) * aNumber;
         }

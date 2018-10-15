@@ -20,14 +20,17 @@ Welcome to Yura Mishin's Java repository.
 + [Шпаргалка Java программиста](https://habr.com/post/265061/)
 + [Список полезных ссылок для Java программиста](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)
 + [Head First Java](https://www.oreilly.com/library/view/head-first-java/0596009208/)
-+ [Thinking in Java (En)](https://en.wikipedia.org/wiki/Thinking_in_Java/) // [(Ru)](http://wikijava.it-cache.net/index.php)
-+ [Core Java. Volume I, II](https://www.horstmann.com/corejava.html)
++ [Herbert Schildt. Java: The Complete Reference](https://www.amazon.com/Java-Complete-Reference-Eleventh/dp/1260440230/)
++ [Cay S. Horstmann. Core Java. Volume I, II](https://www.horstmann.com/corejava.html)
++ [Bruce Eckel. Thinking in Java (En)](https://www.amazon.com/gp/product/0131872486/) // [(Ru)](http://wikijava.it-cache.net/index.php)
++ [Joshua Bloch. Effective Java](https://www.amazon.com/gp/product/0134685997/)
 ##### Extensions
 + [Apache Maven](https://maven.apache.org/)
 + [Maven Repository: Top Projects at Maven Repository](https://mvnrepository.com/popular)
 ##### Computers and Technology
 + [Harvard CS50 in Russian](https://habr.com/company/vertdider/blog/403823/)
 + [Coursera](https://www.coursera.org/browse/computer-science)
++ [Технострим Mail.Ru Group](https://www.youtube.com/user/TPMGTU/videos)
 + [Hackr.io](https://hackr.io/)
 + [SOLID](https://en.wikipedia.org/wiki/SOLID)
 + [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
@@ -38,8 +41,10 @@ Welcome to Yura Mishin's Java repository.
 + [Test-driven development / TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 + [UML](https://sourcemaking.com/uml)
 + [uml-diagrams.org](https://www.uml-diagrams.org/)
-##### Data Structures and Algorithms
+##### Algorithms and Data Structures
++ [Niklaus Wirth. Algorithms and Data Structures](https://www.amazon.com/gp/product/0130220051/)
 + [Robert Lafore. Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539)
++ [Aditya Bhargava. Grokking Algorithms](https://www.amazon.com/gp/product/1617292230/)
 + [My examples](https://github.com/MishinCorp/java/tree/master/dsalgorithms)
 ##### Patterns
 + [sourcemaking.com](https://sourcemaking.com/design_patterns)
@@ -57,12 +62,14 @@ Welcome to Yura Mishin's Java repository.
 ##### Web
 + [Head First Servlets and JSP](http://shop.oreilly.com/product/9780596516680.do)
 + [w3schools.com](https://www.w3schools.com/)
++ [freecodecamp.org](https://www.freecodecamp.org/)
 ##### Database. SQL
 + [PostgreSQL documentation](https://www.postgresql.org/docs/)
 + [Head First SQL](http://shop.oreilly.com/product/9780596526849.do)
 + [SQL in a Nutshell](http://shop.oreilly.com/product/9780596518851.do)
 + [Практическое владение языком SQL](http://www.sql-ex.ru/)
 ##### GIT
++ [Git Doc](https://git-scm.com/doc)
 + [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)
 ##### My pet projects
 + [Tracker](https://github.com/MishinCorp/java/tree/master/tracker)
