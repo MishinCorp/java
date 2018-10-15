@@ -18,8 +18,8 @@ public class SelectionSortTest {
      */
     @Test
     public void whenInvokeThenSort() {
-        int[] array = {3, 8, 2, 5, 0, 1, 4};
-        int[] result = {0, 1, 2, 3, 4, 5, 8};
+        int[] array = {3, 8, 2, 5, 0, 1, 4, 10};
+        int[] result = {0, 1, 2, 3, 4, 5, 8, 10};
         new SelectionSort().sort(array);
 
         assertThat(result, is(array));
