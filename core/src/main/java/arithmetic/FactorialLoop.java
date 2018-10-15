@@ -16,7 +16,6 @@ public class FactorialLoop {
      */
     public final int calc(final int aN) {
         int result = 1;
-
         if (aN == 0) {
             result = 1;
         } else {
@@ -24,7 +23,6 @@ public class FactorialLoop {
                 result *= i;
             }
         }
-
         return result;
     }
 }
