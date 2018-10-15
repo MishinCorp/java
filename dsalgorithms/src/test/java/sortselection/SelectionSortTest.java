@@ -14,7 +14,7 @@ import static org.hamcrest.Matchers.is;
  */
 public class SelectionSortTest {
     /**
-     * Tests sort() method.
+     * Tests quickSort() method.
      */
     @Test
     public void whenInvokeThenSort() {
