@@ -50,7 +50,7 @@ public class SimpleArray<T> implements Iterable<T> {
     }
 
     /**
-     * Method removes an element..
+     * Method removes an element.
      *
      * @param pIndex Index.
      */
