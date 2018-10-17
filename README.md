@@ -28,8 +28,11 @@ Welcome to Yura Mishin's Java repository.
 + [Apache Maven](https://maven.apache.org/)
 + [Maven Repository: Top Projects at Maven Repository](https://mvnrepository.com/popular)
 ##### Computers and Technology
-+ [Harvard CS50 in Russian](https://habr.com/company/vertdider/blog/403823/)
++ [Harvard CS50](https://cs50.harvard.edu/) / [Ru](https://habr.com/company/vertdider/blog/403823/)
 + [Coursera](https://www.coursera.org/browse/computer-science)
++ [Udemy](https://www.udemy.com/)
++ [edX](https://www.edx.org/)
++ [Khan Academy](https://www.khanacademy.org/)
 + [Технострим Mail.Ru Group](https://www.youtube.com/user/TPMGTU/videos)
 + [Hackr.io](https://hackr.io/)
 + [SOLID](https://en.wikipedia.org/wiki/SOLID)
