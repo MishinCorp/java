@@ -35,6 +35,7 @@ Welcome to Yura Mishin's Java repository.
 + [Khan Academy](https://www.khanacademy.org/)
 + [Технострим Mail.Ru Group](https://www.youtube.com/user/TPMGTU/videos)
 + [Hackr.io](https://hackr.io/)
++ [Agile](http://agilemanifesto.org/)
 + [SOLID](https://en.wikipedia.org/wiki/SOLID)
 + [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 + [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
