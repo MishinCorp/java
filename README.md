@@ -71,6 +71,7 @@ Welcome to Yura Mishin's Java repository.
 + [w3schools.com](https://www.w3schools.com/)
 + [freecodecamp.org](https://www.freecodecamp.org/)
 ##### Database. SQL
++ [Руководство по проектированию реляционных баз данных](https://habr.com/post/193136/)
 + [PostgreSQL documentation](https://www.postgresql.org/docs/)
 + [Head First SQL](http://shop.oreilly.com/product/9780596526849.do)
 + [SQL in a Nutshell](http://shop.oreilly.com/product/9780596518851.do)
