@@ -1,16 +1,16 @@
-package simplestack;
+package simplequeue;
 
 import simplelinkedlist.SimpleLinkedList;
 
 /**
- * Class SimpleStack.
- * Implements a simple stack.
+ * SimpleQueue.
+ * Implements a simple queue.
  *
  * @param <T> Element.
  * @author Mishin Yura (mishin.inbox@gmail.com)
  * @since 22.10.2018
  */
-public class SimpleStack<T> {
+public class SimpleQueue<T> {
     /**
      * Storage.
      */
@@ -31,6 +31,6 @@ public class SimpleStack<T> {
      * @return T Element.
      */
     public final T poll() {
-        return this.list.removeTail();
+        return this.list.removeHead();
     }
 }
