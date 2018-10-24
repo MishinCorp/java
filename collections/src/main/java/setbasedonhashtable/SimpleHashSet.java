@@ -1,7 +1,6 @@
 package setbasedonhashtable;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
 
 /**
  * Class SimpleHashSet.
@@ -19,7 +18,7 @@ public class SimpleHashSet<E> implements IHashSet<E> {
     /**
      * Percentage.
      */
-    public static final int PECENTAGE = 100;
+    public static final int PERCENTAGE = 100;
     /**
      * Hash-table size.
      */
@@ -40,7 +39,7 @@ public class SimpleHashSet<E> implements IHashSet<E> {
     @Override
     public final boolean add(final E pE) {
         boolean result = false;
-        if ((PECENTAGE * this.size / arraySize) > MAX_CAP) {
+        if ((PERCENTAGE * this.size / arraySize) > MAX_CAP) {
             this.rehash();
         }
         if (pE.hashCode() < arraySize) {
@@ -108,7 +107,8 @@ public class SimpleHashSet<E> implements IHashSet<E> {
 
     @Override
     public final boolean contains(final E pE) {
-        return Arrays.stream(this.array).anyMatch(item -> item != null && item.equals(pE));
+        return Arrays.stream(this.array)
+                .anyMatch(item -> item != null && item.equals(pE));
     }
 
     @Override
