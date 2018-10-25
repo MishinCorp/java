@@ -16,6 +16,7 @@ Welcome to Yura Mishin's Java repository.
 + [Metanit.com](https://metanit.com/java/)
 + [Mkyong.com](https://www.mkyong.com/tutorials/java-8-tutorials/)
 + [Baeldung.com](https://www.baeldung.com/)
++ [Jakob Jenkov. Tutorials](http://tutorials.jenkov.com/)
 + [Vertex-academy.com](https://vertex-academy.com/tutorials/ru/)
 + [Шпаргалка Java программиста](https://habr.com/post/265061/)
 + [Список полезных ссылок для Java программиста](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)
@@ -68,11 +69,15 @@ Welcome to Yura Mishin's Java repository.
 + [My examples](https://github.com/MishinCorp/java/tree/master/stream)
 ##### Multithreading
 + [The Java™ Tutorials: Concurrency](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
++ [Java Memory Model](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
++ [Brian Goetz. Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 + [My examples](https://github.com/MishinCorp/java/tree/master/multithreading)
 ##### Web
 + [Head First Servlets and JSP](http://shop.oreilly.com/product/9780596516680.do)
++ [spring.io](http://spring.io/)
 + [w3schools.com](https://www.w3schools.com/)
 + [freecodecamp.org](https://www.freecodecamp.org/)
++ [javascript.info](http://javascript.info/)
 ##### Database. SQL
 + [Руководство по проектированию реляционных баз данных](https://habr.com/post/193136/)
 + [PostgreSQL documentation](https://www.postgresql.org/docs/)
