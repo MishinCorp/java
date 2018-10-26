@@ -1,7 +1,6 @@
-package sumfromoneton;
+package multifromoneton;
 
 import org.junit.Test;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
@@ -15,13 +14,13 @@ import static org.hamcrest.Matchers.is;
 public class SolutionTest {
 
     /**
-     * Tests sum() method.
+     * Tests multi() method.
      */
     @Test
-    public void whenInvokeThenSum() {
+    public void whenInvokeThenMulti() {
         Solution solution = new Solution();
 
-        assertThat(solution.sum(3), is(6));
-        assertThat(solution.sum(10), is(55));
+        assertThat(solution.multi(2), is(2));
+        assertThat(solution.multi(5), is(120));
     }
 }
