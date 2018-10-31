@@ -69,7 +69,8 @@ Welcome to Yura Mishin's Java repository.
 + [My examples](https://github.com/MishinCorp/java/tree/master/stream)
 ##### Multithreading
 + [The Java™ Tutorials: Concurrency](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
-+ [Java Memory Model](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
++ [Jakob Jenkov. Java concurrency](http://tutorials.jenkov.com/java-concurrency/index.html)
++ [Jakob Jenkov. Java Memory Model](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 + [Brian Goetz. Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 + [My examples](https://github.com/MishinCorp/java/tree/master/multithreading)
 ##### Web
@@ -78,12 +79,16 @@ Welcome to Yura Mishin's Java repository.
 + [w3schools.com](https://www.w3schools.com/)
 + [freecodecamp.org](https://www.freecodecamp.org/)
 + [javascript.info](http://javascript.info/)
-##### Database. SQL
++ [tutorialspoint.com](https://www.tutorialspoint.com/)
+##### Database. JDBC. SQL
 + [Руководство по проектированию реляционных баз данных](https://habr.com/post/193136/)
 + [PostgreSQL documentation](https://www.postgresql.org/docs/)
 + [Head First SQL](http://shop.oreilly.com/product/9780596526849.do)
 + [SQL in a Nutshell](http://shop.oreilly.com/product/9780596518851.do)
 + [Практическое владение языком SQL](http://www.sql-ex.ru/)
++ [SQL Задачи и решения](http://sql-tutorial.ru/)
++ [My examples](https://github.com/MishinCorp/java/tree/master/jdbc)
+
 ##### GIT
 + [Git Doc](https://git-scm.com/doc)
 + [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)

@@ -26,6 +26,7 @@
         <module>patterns</module>
         <module>lambda</module>
         <module>stream</module>
+        <module>jdbc</module>
     </modules>
 
     <properties>
