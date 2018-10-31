@@ -28,5 +28,9 @@ target
 gitCheatList.txt
 classes
 templates
+nonblock*
+producer*
+statistics
+userstorage
 
 
