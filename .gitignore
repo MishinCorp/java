@@ -28,7 +28,6 @@ target
 gitCheatList.txt
 classes
 templates
-nonblock*
 userstorage
 trackerdb
 jsoup
