@@ -28,5 +28,6 @@ target
 gitCheatList.txt
 classes
 templates
-
-
+trackerdb
+jsoup
+xml

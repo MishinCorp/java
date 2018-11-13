@@ -10,6 +10,8 @@ Welcome to Yura Mishin's Java repository.
 ##### Common
 + [Google](https://www.google.com/)
 + [Stackoverflow](https://stackoverflow.com/)
++ [Books](https://cloud.mail.ru/public/ddb8e9581dba/Books)
++ [Videos](https://cloud.mail.ru/public/fd3970e8f5c9/Video)
 ##### Java
 + [Oracle Help Center](https://docs.oracle.com/)
 + [Java-online.ru](http://java-online.ru/)
@@ -46,6 +48,7 @@ Welcome to Yura Mishin's Java repository.
 + [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor)
 + [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 + [Web developer roadmap - 2018](https://github.com/kamranahmedse/developer-roadmap)
++ [Web developer roadmap - 2018.2](https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d)
 + [Test-driven development / TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 + [UML](https://sourcemaking.com/uml)
 + [uml-diagrams.org](https://www.uml-diagrams.org/)
@@ -69,7 +72,8 @@ Welcome to Yura Mishin's Java repository.
 + [My examples](https://github.com/MishinCorp/java/tree/master/stream)
 ##### Multithreading
 + [The Java™ Tutorials: Concurrency](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
-+ [Java Memory Model](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
++ [Jakob Jenkov. Java concurrency](http://tutorials.jenkov.com/java-concurrency/index.html)
++ [Jakob Jenkov. Java Memory Model](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
 + [Brian Goetz. Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 + [My examples](https://github.com/MishinCorp/java/tree/master/multithreading)
 ##### Web
@@ -78,12 +82,29 @@ Welcome to Yura Mishin's Java repository.
 + [w3schools.com](https://www.w3schools.com/)
 + [freecodecamp.org](https://www.freecodecamp.org/)
 + [javascript.info](http://javascript.info/)
-##### Database. SQL
++ [tutorialspoint.com](https://www.tutorialspoint.com/)
+##### Database. JDBC. SQL
 + [Руководство по проектированию реляционных баз данных](https://habr.com/post/193136/)
 + [PostgreSQL documentation](https://www.postgresql.org/docs/)
 + [Head First SQL](http://shop.oreilly.com/product/9780596526849.do)
 + [SQL in a Nutshell](http://shop.oreilly.com/product/9780596518851.do)
 + [Практическое владение языком SQL](http://www.sql-ex.ru/)
++ [SQL Задачи и решения](http://sql-tutorial.ru/)
++ [My examples](https://github.com/MishinCorp/java/tree/master/jdbc)
+##### XML.
++ [SQLite](https://www.sqlite.org/index.html)
++ [SQLite JDBC](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc)
++ [SQLite Tutorial](http://www.sqlitetutorial.net/)
++ [SQLite Studio](https://sqlitestudio.pl/index.rvt)
++ [Introduction to JAXB](https://docs.oracle.com/javase/tutorial/jaxb/intro/index.html)
++ [Java XML Tutorial](http://www.mkyong.com/tutorials/java-xml-tutorials/)
++ [Guide to JAXB](https://www.baeldung.com/jaxb)
++ [Simple API for XML. SAX](https://docs.oracle.com/javase/tutorial/jaxp/sax/index.html)
++ [Transforming XML Data with XSLT](https://docs.oracle.com/javase/tutorial/jaxp/xslt/transformingXML.html)
++ [Parsing an XML File Using SAX](https://docs.oracle.com/javase/tutorial/jaxp/sax/parsing.html)
++ [My examples](https://github.com/MishinCorp/java/tree/master/xml)
+
+
 ##### GIT
 + [Git Doc](https://git-scm.com/doc)
 + [Flight rules for Git](https://github.com/k88hudson/git-flight-rules)
