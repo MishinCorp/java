@@ -30,7 +30,8 @@ classes
 templates
 nonblock*
 producer*
-statistics
 userstorage
-
+trackerdb
+jsoup
+xml
 
