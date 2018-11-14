@@ -90,6 +90,7 @@ Welcome to Yura Mishin's Java repository.
 + [SQL in a Nutshell](http://shop.oreilly.com/product/9780596518851.do)
 + [Практическое владение языком SQL](http://www.sql-ex.ru/)
 + [SQL Задачи и решения](http://sql-tutorial.ru/)
++ [H2 Database Engine](http://www.h2database.com/)
 + [My examples](https://github.com/MishinCorp/java/tree/master/jdbc)
 ##### XML.
 + [SQLite](https://www.sqlite.org/index.html)
