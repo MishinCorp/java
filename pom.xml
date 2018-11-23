@@ -30,6 +30,7 @@
         <module>trackerdb</module>
         <module>xml</module>
         <module>javajobparser</module>
+        <module>websimple</module>
 
     </modules>
 
