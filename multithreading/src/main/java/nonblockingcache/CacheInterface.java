@@ -8,14 +8,14 @@ public interface CacheInterface {
     /**
      * Method adds a model.
      *
-     * @param pModel Model.
+     * @param pModel model.
      */
     void add(Base pModel);
 
     /**
      * Method updates a model.
      *
-     * @param pModel Model.
+     * @param pModel model.
      * @throws OptimisticException OptimisticException.
      */
     void update(Base pModel) throws OptimisticException;
@@ -23,7 +23,7 @@ public interface CacheInterface {
     /**
      * Method deletes a model.
      *
-     * @param model Model.
+     * @param model model.
      */
 //    void delete(Base pModel);
 }

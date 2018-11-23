@@ -10,8 +10,6 @@ Welcome to Yura Mishin's Java repository.
 ##### Common
 + [Google](https://www.google.com/)
 + [Stackoverflow](https://stackoverflow.com/)
-+ [Books](https://cloud.mail.ru/public/ddb8e9581dba/Books)
-+ [Videos](https://cloud.mail.ru/public/fd3970e8f5c9/Video)
 ##### Java
 + [Oracle Help Center](https://docs.oracle.com/)
 + [Java-online.ru](http://java-online.ru/)
@@ -77,6 +75,8 @@ Welcome to Yura Mishin's Java repository.
 + [Brian Goetz. Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 + [My examples](https://github.com/MishinCorp/java/tree/master/multithreading)
 ##### Web
++ [HTTP Protocol](https://ru.wikipedia.org/wiki/HTTP)
++ [URL](https://ru.wikipedia.org/wiki/URL)
 + [Head First Servlets and JSP](http://shop.oreilly.com/product/9780596516680.do)
 + [spring.io](http://spring.io/)
 + [w3schools.com](https://www.w3schools.com/)
