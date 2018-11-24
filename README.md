@@ -10,8 +10,6 @@ Welcome to Yura Mishin's Java repository.
 ##### Common
 + [Google](https://www.google.com/)
 + [Stackoverflow](https://stackoverflow.com/)
-+ [Books](https://cloud.mail.ru/public/ddb8e9581dba/Books)
-+ [Videos](https://cloud.mail.ru/public/fd3970e8f5c9/Video)
 ##### Java
 + [Oracle Help Center](https://docs.oracle.com/)
 + [Java-online.ru](http://java-online.ru/)
