@@ -9,6 +9,9 @@
         </File>
     </Appenders>
     <Loggers>
+        <Logger name="org.quartz" level="ERROR" additivity="false">
+            <AppenderRef ref="MyFile"/>
+        </Logger>
         <Root level="debug">
             <AppenderRef ref="Console" />
             <AppenderRef ref="MyFile"/>

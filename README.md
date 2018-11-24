@@ -77,6 +77,8 @@ Welcome to Yura Mishin's Java repository.
 + [Brian Goetz. Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 + [My examples](https://github.com/MishinCorp/java/tree/master/multithreading)
 ##### Web
++ [HTTP Protocol](https://ru.wikipedia.org/wiki/HTTP)
++ [URL](https://ru.wikipedia.org/wiki/URL)
 + [Head First Servlets and JSP](http://shop.oreilly.com/product/9780596516680.do)
 + [spring.io](http://spring.io/)
 + [w3schools.com](https://www.w3schools.com/)
@@ -104,6 +106,10 @@ Welcome to Yura Mishin's Java repository.
 + [Transforming XML Data with XSLT](https://docs.oracle.com/javase/tutorial/jaxp/xslt/transformingXML.html)
 + [Parsing an XML File Using SAX](https://docs.oracle.com/javase/tutorial/jaxp/sax/parsing.html)
 + [My examples](https://github.com/MishinCorp/java/tree/master/xml)
+##### Parsing.
++ [jsoup: Java HTML Parser](https://jsoup.org/)
++ [Quartz. Enterprise Job Scheduler](http://www.quartz-scheduler.org/documentation/)
++ [My examples](https://github.com/MishinCorp/java/tree/master/jdbc\src\main\java\jobparser)
 
 
 ##### GIT
